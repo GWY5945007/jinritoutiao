@@ -1,0 +1,184 @@
+body{
+	font-size: 16px;
+	font-family: "微软雅黑","苹方","sans-serif"
+}
+header{
+	width: 100%;
+	height: 1.77rem;
+	/* background-color: yellow; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.head-top{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #c93a3a;
+	padding: 0 0.24rem;   
+	/*  * 注意当数值为0.**的时候 在设置padding值时 上下 左右 值的数值之间用空格分开 例 padding:0 .24rem; */ 
+}
+.head-top h1{
+	font-size: 0.37rem;
+	color: #fff;
+	font-weight: bolder;
+	line-height: 0.88rem;
+	float: left;
+}
+.head-search{
+	width: 5.02rem;
+	height: 0.57rem;
+	background-color: blue;
+	float: right;
+	margin-top: 0.155rem;
+}
+.head-search input{
+	width: 100%;
+	height: 100%;
+	padding-left: 0.68rem;
+	border: 0;
+}
+nav{
+	width: 100%;
+	height: 0.89rem;
+/* 	background-color:  green; */
+	padding: 0 .24rem;
+	display: flex;   /* 设置弹性布局   默认横排 */
+	flex-wrap: wrap;  /* 设置内容换行 */
+	justify-content: space-between;     /* 设置水平方向对齐方式   两端对齐 */
+	align-items: center;  /* 设置单行垂直对齐方式 */
+}
+nav a{
+	color: #000;
+	font-size: .34rem;
+}
+.nav-active{
+	color: #d43d3d;
+	font-size: .4rem;
+}
+.nav-more{
+	display: block;
+	width: .53rem;
+	height: 100%;
+	text-align: right;
+	box-shadow: -3px 0 8px rgba(0, 0, 0, 0.2);
+	line-height: .89rem;
+}
+.content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.77rem;
+	bottom: .98rem;
+	/* background-color: pink; */
+	overflow-y: scroll;
+}
+          /* ............................................ */
+.notice{
+	width: 100%;
+	height: 1.88rem;
+	/* background-color: goldenrod; */
+	border-top: .02rem solid #eee;
+	padding: .24rem .24rem 0;
+}
+.notice-top{
+	width: 100%;
+	height: 1.24rem;
+}
+.notice-top p{
+	/* width: 100%; */
+	font-size: .38rem;
+	float: left;
+}
+
+.notice-bottom{
+	width: 100%;
+	overflow: hidden;
+	/* background-color: orange;	 */
+}
+.name,.pinglun,.time{
+	float: left;
+	margin-right: .2rem;
+	color: #a3a3a3;
+	font-size: .24rem;
+}
+.end{
+	float: right;
+	font-size: .24rem;
+	color: #7f7f7f;
+}
+.new{
+	height: 3.56rem;
+}
+.notice-top-new{
+	width: 100%;
+	height: 1.46rem;
+}
+.notice-top-new{
+	width: 100%;
+	height: 1.24rem;
+	font-size: .38rem;
+	/* float: left; */
+	/* padding-top: .39rem; */
+}
+.notice-mid{
+	width: : 6.7rem;
+	height: 1.46rem;
+	display: flex;   /* 设置弹性布局   默认横排 */
+	flex-wrap: wrap;  /* 设置内容换行 */
+	justify-content: space-between;     /* 设置水平方向对齐方式   两端对齐 */
+	align-items: center;  /* 设置单行垂直对齐方式 */ 
+}
+
+.notice-mid .notice-img{
+	width: 2.24rem;
+	height: 1.46rem;
+	float: left;
+	/* background-color: blue; */
+	margin-bottom: .1rem;      /* 阴影留空 */
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 998;
+}
+.menu{
+	width: 100%;
+	height: 0.98rem;
+	/* background-color: red; */
+	padding: 0 0.24rem;
+	display: flex;   /* 设置弹性布局   默认横排 */
+	flex-wrap: wrap;  /* 设置内容换行 */
+	justify-content: space-between;    /* 设置水平方向对齐方式   两端对齐 */
+	align-items: center;
+}
+.menu li{
+	width: 1.31rem;
+	height: 100%;
+	/* background-color: skyblue; */
+	text-align: center;
+}
+.menu-logo{
+	width: .5rem;
+	height: .5rem;
+	/* background-color: pink; */
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+.menu-wenzi{
+	width: 100%;
+	height: .24rem;
+	line-height: .24rem;
+	font-size: .18rem;
+}
+.menu .menu-active{
+	color: #f85959;
+}
+.daohang{
+	width: 0.80rem;
+	height: 0.80rem;
+}
