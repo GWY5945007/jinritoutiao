@@ -33,5 +33,14 @@
     pagination: {
       el: '.swiper-pagination',
     },
+    on:{
+    	slideChangeTransitionEnd:function(){
+    		if(this.activeIndex==1){
+    			setTimeout(function(){location.href = "index.html";},2000)
+    			// location.href = "index.html";
+    		}
+    		// 切换结束时，告诉我现在时第几个slide
+    	},
+    }
   })        
   </script>
